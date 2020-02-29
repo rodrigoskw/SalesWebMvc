@@ -27,6 +27,7 @@ namespace SalesWebMvc.Controllers
 
         }
 
+        [HttpGet]
         public IActionResult Create()
         {
             return View();
